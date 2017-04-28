@@ -9,7 +9,7 @@ public class Iglesia {
     private int foto;
     private int descripcion;
     private int audio;
-    private  long id;
+    private long id;
 
     //Generamos el constructor alt+insert
 
@@ -35,9 +35,7 @@ public class Iglesia {
     public int getDescripcion() {return descripcion;}
 
     public void setDescripcion(int descripcion) {
-        this.descripcion = descripcion;
-    }
-
+        this.descripcion = descripcion; }
 
     public int getFoto() {
         return foto;
