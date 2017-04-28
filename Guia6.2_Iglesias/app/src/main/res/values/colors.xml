@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#fff000</color>
+    <color name="colorLetra">#923865</color>
+    <color name="colorFondoList">#efe759</color>
+    <color name="colorFondoItem">#59e7a0</color>
+    <color name="colorFondoIglesia">#f4b2d3</color>
+    <color name="colorBtns">#e759a0</color>
+</resources>

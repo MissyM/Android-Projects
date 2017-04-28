@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_basico"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context="com.httpmilenacabrera.guas.ViewBasicoActivity">
+
+    <TextView
+        android:id="@+id/texto"
+        android:background="@color/colorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:hint="@string/textview"
+        android:layout_margin="@dimen/txtv_margin"
+        android:textColor="@color/colortxt"/>
+
+    <EditText
+        android:textColor="@color/colortxt"
+        android:id="@+id/nombre"
+        android:background="@color/colorEdTxt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altura_edtxt"
+        android:hint="@string/edtxtuno"
+        android:gravity="center"
+        android:layout_margin="@dimen/ed_margin"/>
+
+    <EditText
+        android:textColor="@color/colortxt"
+        android:id="@+id/cedula"
+        android:background="@color/colorEdTxt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altura_edtxt"
+        android:hint="@string/edtxtdos"
+        android:gravity="center"
+        android:layout_margin="@dimen/ed_margin"
+        />
+
+    <Button
+        android:onClick="getNombre"
+        android:background="@color/colorBtns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/btn_margin"
+        android:text="@string/btn1"/>
+
+
+    <Button
+        android:onClick="getCedula"
+        android:background="@color/colorBtns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/btn_margin"
+        android:text="@string/btn2"/>
+</LinearLayout>

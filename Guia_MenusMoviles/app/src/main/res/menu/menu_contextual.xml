@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mensaje1"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@mipmap/ic_launcher1"
+        android:title="Mensaje 1"/>
+    <item
+        android:id="@+id/mensaje2"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@mipmap/ic_launcher2"
+        android:title="Mensaje 2"/>
+    <item
+        android:id="@+id/mensaje3"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Mensaje 3"/>
+</menu>

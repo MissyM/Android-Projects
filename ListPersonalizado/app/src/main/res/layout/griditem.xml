@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/imgIgle2"
+        android:transitionName="imagen_compartida"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtItemGridNombreIgle"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:layout_gravity="bottom"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Guia6_IntentsNavegacionApplication</string>
+    <string name="ingresar_nombre">Ingresar Nombre</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="ingresar_apellido">Ingresar Apellido</string>
+</resources>

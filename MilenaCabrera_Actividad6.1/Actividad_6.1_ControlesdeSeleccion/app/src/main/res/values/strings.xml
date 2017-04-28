@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">ActividadControlesdeSeleccion</string>
+    <string name="featuresjs">
+Diseñado por Netskape Communications Corp, Mozilla Fundation
+Es un lenguaje de programación interpretado
+Orientado a objetos
+Imperativo
+Basado en prototipos
+Interpretado por el navegador
+
+    </string>
+    <string name="featuresc">
+Diseñado por Dennis Ritchie
+Orientado a la implementación de sistemas operativos
+Es de mediano nivel
+Tiene un núcleo de lenguaje simple
+Funciones anidadas
+Soporte nativo para programación multihilo
+
+    </string>
+    <string name="featuresjava">
+Creado por James Goslim
+Lenguaje de propśito general
+Es concurrente
+Orientado a objetos
+Basado en clases
+Puede correr en cualquier plataforma que compile Java sin recompilar
+
+    </string>
+    <string name="featuresphp">
+Diseñado por Rasmus Lerdorf
+Adecuado para desarrollo web
+Puede ser incrustado en la web
+El código es ejecutado en el servidor ejecutando código HTML y enviándolo al cliente
+Es multiplataforma
+Wikipedia está hecho en php
+
+    </string>
+    <string name="featuresruby">
+Creado por Yukihiro Matzumoto.
+Tiene tipado dinámico.
+Soporta polimorfismo de tipos.
+Interpretado.
+Reflexivo .
+Orientado a Objetos.
+
+    </string>
+    <string name="featurespython">
+Diseñado por Guido Van Rosum
+Es un lenguaje de alto nivel.
+Es un lenguaje interpretado, no compilado.
+Interactivo: Puede interactuar directamente con los programas mientras los escribe.
+Es orientado a objetos y fuertemente tipado
+Es ideal para principiantes en la programación
+
+    </string>
+</resources>

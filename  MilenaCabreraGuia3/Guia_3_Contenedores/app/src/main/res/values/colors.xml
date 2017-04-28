@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorAzulClaro">#a040fff9</color>
+    <color name="colorAzulVivo">#f51e2ee2</color>
+    <color name="colorAmailloPollito">#ebf5e506</color>
+    <color name="colorPurpura">#9ad599ef</color>
+    <color name="colorGraySoft">#9ad8d5d9</color>
+
+</resources>

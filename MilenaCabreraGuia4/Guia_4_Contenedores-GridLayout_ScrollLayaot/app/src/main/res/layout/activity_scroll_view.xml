@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.httpmilenacabrera.guia_1_3_contenedores.ScrollViewActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La bella y la bestia"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAzul"
+        android:layout_alignBaseline="@+id/cuento"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"/>
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/cuento">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/parrafo"/>
+
+       </LinearLayout>
+    </ScrollView>
+        <Button
+            android:onClick="goGokus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorAzul"/>
+
+</RelativeLayout>

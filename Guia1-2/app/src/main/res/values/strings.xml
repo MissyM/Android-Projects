@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Guia1-2</string>
+    <string name="subtotal">subtotal</string>
+    <string name="radio">Radio</string>
+    <string name="televisor">Televisor</string>
+    <string name="descuento">Descuento del 20%</string>
+    <string name="calcular">Calcular</string>
+    <string name="tv">1000000</string>
+    <string name="rad">600000</string>
+</resources>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ConfiguracionAndroid</string>
+
+    <string name="jugadorUno">Pibe</string>
+    <string name="jugadorDos">Falca</string>
+    <string name="jugadorTres">James</string>
+    <string name="jugadorCuatro">Messi</string>
+    <string name="jugadorCinco">Cristiano</string>
+
+    <string name="modeloUno">mod1</string>
+    <string name="modeloDos">mod2</string>
+    <string name="modeloTres">mod3</string>
+    <string name="modeloCuatro">mod4</string>
+    <string name="modeloCinco">mod5</string>
+
+    <string name="titulo">Futbol Models</string>
+    <string name="jugadores">Jugadores</string>
+    <string name="modelos">Modelos</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="modelo">Modelos</string>
+    <string name="paula">Paula Delgado</string>
+    <string name="contctanos">Contáctanos</string>
+    <string name="jugador">Jugadores</string>
+    <string name="pibe">Pibe</string>
+    <string name="falcao">Falcao</string>
+    <string name="james">James</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="correo">Correo</string>
+    <string name="cedula">Cédula</string>
+    <string name="enviar">Enviar</string>
+    <string name="registrese">Registrese</string>
+
+
+</resources>

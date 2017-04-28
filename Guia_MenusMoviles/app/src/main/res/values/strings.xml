@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Guia_MenusMoviles</string>
+    <string name="action_settings">action_settings</string>
+    <string name="segundo">Este es el segundo mensaje</string>
+    <string name="primer">Este es el primer mensaje</string>
+</resources>

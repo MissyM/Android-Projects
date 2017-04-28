@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ListViewActivity</string>
+    <string-array name="Lista">
+        <item>Colombia</item>
+        <item>Chile</item>
+        <item>Bolivia</item>
+        <item>Brasil</item>
+        <item>Perú</item>
+        <item>Argentina</item>
+        <item>Ecuador</item>
+        <item>Venezuela</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Guías</string>
+    <string name="btn1">nombre</string>
+    <string name="btn2">cédula</string>
+    <string name="edtxtuno">nombre</string>
+    <string name="edtxtdos">cédula</string>
+    <string name="textview">Esto Cambia</string>
+    <string name="guia1">Guia1</string>
+</resources>

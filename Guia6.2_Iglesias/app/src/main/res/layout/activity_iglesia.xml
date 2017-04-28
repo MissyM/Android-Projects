@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_iglesias"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/colorFondoItem"
+    android:orientation="vertical"
+    android:weightSum="1.5"
+    tools:context="com.httpmilenacabrera.guia62_iglesias.IglesiaActivity">
+    <ImageView
+        android:id="@+id/fotoiglesia"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        <TextView
+            android:id="@+id/descripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/play"
+        android:onClick="startAudio"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/playbutton"/>
+</LinearLayout>
+

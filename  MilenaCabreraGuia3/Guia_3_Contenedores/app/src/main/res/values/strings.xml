@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">OrganizacionDeVistas</string>
+    <string name="ingeniera">ingeniera</string>
+    <string name="la_gu_a">la guía</string>
+    <string name="guia">la guia</string>
+    <string name="esta">esta</string>
+    <string name="desactualizado">desactualizada</string>
+    <string name="_1_1">1.1</string>
+    <string name="_1_2">1.2</string>
+    <string name="_1_3">1.3</string>
+    <string name="_2_1">2.1</string>
+    <string name="_2_2">2.2</string>
+    <string name="_2_3">2.3</string>
+    <string name="_3_1">3.1</string>
+    <string name="_3_2">3.2</string>
+    <string name="titulo">titulo</string>
+    <string name="nombres">nombres</string>
+    <string name="apellidos">apellidos</string>
+    <string name="title">Relative layout examples</string>
+    <string name="red">RED</string>
+    <string name="orange">ORANGE</string>
+    <string name="yellow">YELLOW</string>
+    <string name="green">GREEN</string>
+    <string name="blue">BLUE</string>
+    <string name="indigo">INDIGO</string>
+    <string name="violet">VIOLET</string>
+</resources>
