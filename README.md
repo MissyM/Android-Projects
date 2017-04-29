@@ -1,0 +1,1 @@
+This repository contain examples projects that can help you to explorer many features of android studio. Each many are in spanish but now I am trying to make it in english. Feel free of make sugestions and commits.I'm open of that. Thanks!
