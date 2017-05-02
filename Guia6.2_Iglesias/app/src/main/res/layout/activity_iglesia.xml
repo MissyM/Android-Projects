@@ -4,7 +4,6 @@
     android:id="@+id/activity_iglesias"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="@color/colorFondoItem"
     android:orientation="vertical"
     android:weightSum="1.5"
     tools:context="com.httpmilenacabrera.guia62_iglesias.IglesiaActivity">
@@ -22,12 +21,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </ScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/audio"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/playbutton"
+            android:layout_alignParentRight="true"/>
 
-    <Button
-
-        android:id="@+id/audio"
-        android:layout_width="57dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/playbutton"/>
+    </RelativeLayout>
 </LinearLayout>
 
