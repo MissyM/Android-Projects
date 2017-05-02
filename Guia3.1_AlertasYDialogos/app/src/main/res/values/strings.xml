@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Guia3.1_AlertasYDialogos</string>
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
+    <string name="dialog_message">Esta seguro de lo que va a hacer?</string>
+    <string name="dialog_title">Warning!</string>
+    <string name="ts">toastShort</string>
+    <string name="tl">toastLong</string>
+</resources>
