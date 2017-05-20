@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MiEscuelaApp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps_activitye">Map</string>
+    <string name="save_location">Save Location</string>
+    <string name="show_list">Show List</string>
+    <string name="iamhere">I\'m here :)</string>
+    <string name="saved">Saved</string>
+    <string name="location_list">LOCATION LIST</string>
+</resources>

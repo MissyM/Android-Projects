@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SQLiteDataBase</string>
+    <string name="M">Masculino</string>
+    <string name="F">Femenino</string>
+    <string name="genero">Genero</string>
+    <string name="estado_civil">Estado Civil</string>
+    <string name="edad">Edad</string>
+    <string name="apellido">Apellido</string>
+    <string name="nombre">Nombre</string>
+    <string name="id">ID</string>
+    <string name="datos_personales">Datos Personales</string>
+    <string name="Español">Español</string>
+    <string name="Ingles">Inglés</string>
+    <string name="idioma">Idioma</string>
+    <string name="casado">Casado</string>
+    <string name="soltero">Soltero</string>
+</resources>

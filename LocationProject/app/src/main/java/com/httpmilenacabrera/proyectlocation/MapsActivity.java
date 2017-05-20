@@ -48,8 +48,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void addMarker(double lat, double lng) {
         LatLng coordenadas = new LatLng(lat,lng);
         CameraUpdate mylocation = CameraUpdateFactory.newLatLngZoom(coordenadas, 16);//Centramos el marker de una posición a otra
-        if(marker != null)
-        marker.remove();
+        if(marker != null) {
+            marker.remove();
+        }
         marker = mMap.addMarker(new MarkerOptions()
                 .position(coordenadas)
                 .title("Aqui estoy :)")
