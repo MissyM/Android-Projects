@@ -1,4 +1,4 @@
-package com.milenacabrera.proyectoolimpiadasmatematicas;
+package com.milenacabrera.imagesswitcher_textswitcher;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
