@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AdapterFlipperEx</string>
+    <string name="handwashing">Handwashing</string>
+    <string name="brush_teeth">Brush your teeth</string>
+    <string name="bathe_daily">Daily bath</string>
+    <string name="good_breakfast">Good breakfast</string>
+    <string name="rest_wellh">to rest well</string>
+
+</resources>
