@@ -1,3 +1,52 @@
 <resources>
     <string name="app_name">StackViewEx</string>
+    <string name="civil_war">Civil War</string>
+    <string name="civil_war_sinapsis">Capitán América: Civil War (originalmente en inglés: Captain America: Civil War) es una película de superhéroes estadounidense, estrenada el 27 de abril de 2016. Es una secuela de Captain America: The Winter Soldier, siendo la que completa la Trilogía de Capitán América, y es la película que inicia la Fase 3 del Universo cinematográfico de Marvel. Está dirigida por los hermanos Anthony y Joe Russo, y cuenta con un reparto coral con Chris Evans, Robert Downey Jr., Scarlett Johansson, Sebastian Stan, Anthony Mackie, Emily VanCamp, Don Cheadle, Jeremy Renner, Chadwick Boseman, Paul Bettany, Elizabeth Olsen, Paul Rudd, Frank Grillo, Tom Holland, William Hurt, Martin Freeman y Daniel Brühl.
+
+El desarrollo empezó a finales de 2013 cuando el equipo de producción de Marvel Studios comenzó a tomar prestado conceptos del cómic de Mark Millar «Civil War», de 2006. Tras el éxito de su predecesora, Kevin Feige decidió volver a poner a los hermanos Russo como los directores de la tercera entrega del Capitán América, comenzando a filmarse en abril de 2015 en el área metropolitana de Atlanta, y también cuenta con tomas de Berlín, Puerto Rico, e Islandia.1
+
+Captain America: Civil War se estrenó en Estados Unidos el 6 de mayo de 2016 en formato 3D e IMAX. 2 3 La película se convirtió en un éxito crítico y comercial al recibir reseñas positivas de parte de la crítica y la audiencia y al recaudar más de $1.152 millones contra un presupuesto de $250 millones, convirtiéndose así en la duodécima película con mayor recaudación de todos los tiempos.</string>
+    <string name="civil_war_reparto">
+
+Chris Evans
+Robert Downey Jr.
+Scarlett Johansson
+Sebastian Stan
+Anthony Mackie
+Emily VanCamp
+Don Cheadle
+Jeremy Renner
+Chadwick Boseman
+Paul Bettany
+Elizabeth Olsen
+Paul Rudd
+Frank Grillo
+William Hurt
+Daniel Brühl
+Tom Holland</string>
+    <string name="civil_war_director">Hermanos Russo</string>
+    <string name="deadpool">Deadpool</string>
+    <string name="deadpool_sinapsis">Wade Winston Wilson, más conocido como Deadpool (adaptado como Masacre en algunas traducciones españolas),1 es un personaje ficticio, mercenario, supervillano y antihéroe, que aparece en los cómics publicados por Marvel Comics. Creado por el artista Rob Liefeld, Deadpool apareció por primera vez en New Mutants (vol. 1) #98 (1991).
+
+Como un mercenario mentalmente inestable y desfigurado, Deadpool apareció originalmente como Villano en el cómic New Mutants, y más tarde en ediciones de X-Force. Desde entonces, el personaje ha protagonizado varias series en curso, y comparte títulos con otros personajes, como Cable (cómic). Conocido como el "Mercenario Bocazas" ("Merc with a Mouth" en inglés; "Mercenario Bocón" en Latinoamérica), es famoso por su naturaleza comunicativa y por su tendencia a romper la Cuarta pared, un recurso utilizado por los escritores para un efecto humorístico. Su mayor enemigo es Taskmaster.
+
+En febrero de 2016 se estrenó una adaptación al cine de la mano de Fox.2 Tim Miller fue el encargado de dirigirla, mientras que Ryan Reynolds le dio vida al personaje.
+
+</string>
+    <string name="deadpool_reparto">reparto</string>
+    <string name="deadpool_director">Director</string>
+    <string name="buscando_a_dori">Buscando A Dori</string>
+    <string name="buscando_a_dori_sinapsis">Buscando a Dory (en inglés, Finding Dory) es una película estadounidense en animación 3D por ordenador. Es la secuela de Buscando a Nemo y también está distribuida por Walt Disney Pictures, producida por Pixar y dirigida por Andrew Stanton, que dirigió la película original, y regresó como escritor y director, junto a Angus MacLane como el codirector.2 3 Su estreno fue el 16 de junio de 2016. Volvieron a aparecer algunos personajes de la película anterior, además de Dory están Nemo, Marlin y la pandilla del acuario.
+
+Buscando a Dory se centra en el pez Dory, que hará un viaje para reunirse con sus padres. En el camino, ella es capturada y llevada a un acuario público de Morro Bay, California, donde Marlin y Nemo intentan rescatarla.4</string>
+    <string name="buscando_a_dori_reparto">reparto</string>
+    <string name="buscando_a_dori_director">Director</string>
+    <string name="doctor_strange">Doctor Strange</string>
+    <string name="doctor_strange_sinapsis">Doctor Strange (titulada Doctor Strange: Hechicero Supremo en Hispanoamérica) es una película estadounidense de superhéroes, basada en el personaje de Marvel Comics del mismo nombre, producida por Marvel Studios y distribuida por Walt Disney Studios Motion Pictures en 2016. Es la decimocuarta película del Universo cinematográfico de Marvel (UCM). La película es dirigida por Scott Derrickson, con un guion escrito por Derrickson, Jon Spaihts y C. Robert Cargill. Cuenta con los actores Benedict Cumberbatch, Mads Mikkelsen, Chiwetel Ejiofor, Rachel McAdams, Benjamin Bratt, Benedict Wong, y Tilda Swinton.
+
+Varias encarnaciones de una película del Doctor Strange han estado en desarrollo desde mediados de la década de 1980 hasta que Paramount Pictures adquirió los derechos de la película en abril de 2005 en nombre de Marvel Studios. Thomas Dean Donnelly y Joshua Oppenheimer fueron contratados en junio de 2010 para escribir un guion. En junio de 2014, Derrickson fue contratado para dirigir la película. Cumberbatch fue elegido para el papel protagonista en diciembre de 2014 y al mismo tiempo, Spaihts confirmó que fue contratado para reescribir el guion. La película comenzó su rodaje en noviembre de 2015 en el Reino Unido y Nepal y se estrenó a finales de 2016 en salas de cine tradicionales y IMAX.
+
+En una entrevista a ComicBook durante la Comic-Con 2016, Scott Derrickson dijo: "Creo que Doctor Strange va a ser el comienzo del Multiverso Cinematográfico de Marvel."2 Estas declaraciones dejan varias puertas abiertas para futuras producciones del UCM. Benedict Cumberbatch ha confirmado que el personaje de Doctor Strange estará presente en la película de Avengers: Infinity War3 </string>
+    <string name="doctor_strange_reparto">reparto</string>
+    <string name="doctor_strange_director">Director</string>
 </resources>

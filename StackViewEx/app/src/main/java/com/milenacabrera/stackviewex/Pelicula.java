@@ -5,13 +5,13 @@ package com.milenacabrera.stackviewex;
  */
 
 public class Pelicula {
-    String nombre;
+    int nombre;
     int img;
-    String sinapsis;
-    String reparto;
-    String director;
+    int sinapsis;
+    int reparto;
+    int director;
 
-    public Pelicula(String nombre, int img, String sinapsis, String reparto, String director) {
+    public Pelicula(int nombre, int img, int sinapsis, int reparto, int director) {
         this.nombre = nombre;
         this.img = img;
         this.sinapsis = sinapsis;
@@ -19,11 +19,11 @@ public class Pelicula {
         this.director = director;
     }
 
-    public String getNombre() {
+    public int getNombre() {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
+    public void setNombre(int nombre) {
         this.nombre = nombre;
     }
 
@@ -35,27 +35,27 @@ public class Pelicula {
         this.img = img;
     }
 
-    public String getSinapsis() {
+    public int getSinapsis() {
         return sinapsis;
     }
 
-    public void setSinapsis(String sinapsis) {
+    public void setSinapsis(int sinapsis) {
         this.sinapsis = sinapsis;
     }
 
-    public String getReparto() {
+    public int getReparto() {
         return reparto;
     }
 
-    public void setReparto(String reparto) {
+    public void setReparto(int reparto) {
         this.reparto = reparto;
     }
 
-    public String getDirector() {
+    public int getDirector() {
         return director;
     }
 
-    public void setDirector(String director) {
+    public void setDirector(int director) {
         this.director = director;
     }
 }

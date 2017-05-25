@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
 
     StackView stackView;
     List<Pelicula> peliculas;
-    List<StackItemPictures> listaItems;
     Intent intent;
 
     @Override
@@ -25,49 +24,20 @@ public class MainActivity extends AppCompatActivity {
 
         cargarPeliculas();
 
-        cargarItems();
-
-        AdapterStack adapter = new AdapterStack(this,R.layout.item,listaItems);
+        AdapterStack adapter = new AdapterStack(this,R.layout.item,peliculas);
 
         stackView.setAdapter(adapter);
 
-        stackView.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
-                Pelicula p = peliculas.get(position);
-
-                intent = new Intent(MainActivity.this, PeliculaActivity.class);
-                intent.putExtra("nom", p.getNombre());
-                intent.putExtra("img", p.getImg());
-                intent.putExtra("sinop", p.getSinapsis());
-                intent.putExtra("prot", p.getReparto());
-                intent.putExtra("direc", p.getDirector());
-                startActivity(intent);
-
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-
-            }
-        });
     }
 
     public void cargarPeliculas(){
         peliculas = new LinkedList<>();
-        peliculas.add(new Pelicula("Civil War",R.drawable.f1, "Sinanpsis", "reparto", "Director"));
-        peliculas.add(new Pelicula("Deadpool",R.drawable.f2, "Sinanpsis", "reparto", "Director"));
-        peliculas.add(new Pelicula("Buscando A Dori",R.drawable.f3, "Sinanpsis", "reparto", "Director"));
-        peliculas.add(new Pelicula("Doctor Strange",R.drawable.f4, "Sinanpsis", "reparto", "Director"));
+        peliculas.add(new Pelicula(R.string.civil_war,R.drawable.f1, R.string.civil_war_sinapsis, R.string.civil_war_reparto,R.string.civil_war_director));
+        peliculas.add(new Pelicula(R.string.deadpool,R.drawable.f2, R.string.deadpool_sinapsis, R.string.deadpool_reparto,R.string.deadpool_director));
+        peliculas.add(new Pelicula(R.string.buscando_a_dori,R.drawable.f3, R.string.buscando_a_dori_sinapsis, R.string.buscando_a_dori_reparto, R.string.buscando_a_dori_director));
+        peliculas.add(new Pelicula(R.string.doctor_strange,R.drawable.f4, R.string.doctor_strange_sinapsis, R.string.doctor_strange_reparto, R.string.doctor_strange_director));
     }
 
-    public void cargarItems()
-    {
-        listaItems = new LinkedList<>();
 
-        for(Pelicula p : peliculas) {
-            listaItems.add(new StackItemPictures(p.getNombre(), p.getImg()));
-        }
-    }
 }
