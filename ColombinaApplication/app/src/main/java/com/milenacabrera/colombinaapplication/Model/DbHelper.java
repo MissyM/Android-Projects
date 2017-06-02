@@ -1,13 +1,15 @@
-package com.milenacabrera.miescuelaapp;
+package com.milenacabrera.colombinaapplication.Model;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import com.milenacabrera.colombinaapplication.Model.Constants;
 
 /**
- * Created by mile on 18/05/17.
+ * Created by mile on 30/05/17.
  */
+
 //Clase que me ayuda a hacer la conexión con la base de datos
 public class DbHelper extends SQLiteOpenHelper {
     //Constructor
@@ -29,3 +31,4 @@ public class DbHelper extends SQLiteOpenHelper {
 
     }
 }
+

@@ -7,8 +7,10 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.milenacabrera.miescuelaapp.Model.Connection;
+import com.milenacabrera.miescuelaapp.Model.LocationModel;
+
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by mile on 19/05/17.

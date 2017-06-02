@@ -1,13 +1,10 @@
-package com.milenacabrera.miescuelaapp;
+package com.milenacabrera.miescuelaapp.Model;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.location.*;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.List;
 
 
 /**

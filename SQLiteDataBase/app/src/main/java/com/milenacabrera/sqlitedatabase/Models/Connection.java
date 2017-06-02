@@ -9,6 +9,7 @@ import android.database.sqlite.SQLiteDatabase;
  */
 // En esta Clase que toda la parte de conexión con la base de datos
 public class Connection {
+
     DbHelper dbHelper;
     SQLiteDatabase db;
 
@@ -36,7 +37,6 @@ public class Connection {
     // Metodo que me permite insertar los datos a la base de datos
      public  void insertRegistro(String id, String nombre, String apellido, String edad, String estadocivil, String genero, String idiomai, String idiomae){
          this.openDbWr();
-         //El método insert nos pide nombre de la BD,
 
          ContentValues contentValues = new ContentValues();
          contentValues.put(Constants.COLUMN_ID, id);
@@ -47,6 +47,8 @@ public class Connection {
          contentValues.put(Constants.COLUMN_GENERO, genero);
          contentValues.put(Constants.COLUMN_IDIOMAE, idiomae);
          contentValues.put(Constants.COLUMN_IDIOMAI, idiomai);
+
+         //El método insert nos pide nombre de la BD,
 
          db.insert(Constants.TABLE_NAME, null, contentValues);
 

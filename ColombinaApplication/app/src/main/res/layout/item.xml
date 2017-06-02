@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/producto"
+        android:text="Producto"
+        android:textSize="30sp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+
+
+    <ImageView
+        android:id="@+id/trash"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/eliminar"
+        android:layout_weight="1"/>
+</LinearLayout>

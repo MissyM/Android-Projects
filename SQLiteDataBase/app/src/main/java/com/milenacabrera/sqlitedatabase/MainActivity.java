@@ -51,12 +51,14 @@ public class MainActivity extends AppCompatActivity {
         checkbox_espanol = (CheckBox)findViewById(R.id.checkbox_espanol);
         btn_reg = (Button)findViewById(R.id.btn_reg);
 
+        //Instanciamos la conexión
         connection = new Connection(getApplicationContext());
 
-
+        //Cuando el usuario haga click en el boton Registrarse...
         btn_reg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //...internamente se obtiene lo que introdujo
                 String id = editId.getText().toString();
                 String nombre = editNombre.getText().toString();
                 String apellido = editApellido.getText().toString();
@@ -65,9 +67,9 @@ public class MainActivity extends AppCompatActivity {
                 String genero = radioButton1.isChecked() ? "f" : "m";
                 String idiomae = checkbox_espanol.isChecked() ? "si" : "no";
                 String idiomai = checkbox_ingles.isChecked() ? "si" : "no";
-
+                //Insertamos el registro en la base de datos con la
                 connection.insertRegistro(id, nombre, apellido, edad, estadocivil, genero, idiomai, idiomae);
-
+                //Selimpia el formulario de registro  al hacer el registro, para que sea llenado nuevamente
                 editId.setText("");
                 editNombre.setText("");
                 editApellido.setText("");
@@ -79,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
                 checkbox_ingles.setChecked(false);
                 checkbox_espanol.setChecked(false);
 
+                //Se muestra un mensaje que indica que se introdujo a tal persona en el registro
                 Toast.makeText(getApplicationContext(), "Se introdujo a " + nombre,Toast.LENGTH_LONG).show();
             }
         });

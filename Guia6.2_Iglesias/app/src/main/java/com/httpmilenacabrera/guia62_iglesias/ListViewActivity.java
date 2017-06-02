@@ -39,8 +39,8 @@ public class ListViewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.iglesias_listview);
 
-        //Referenciamos el elemento list del activity_iglesias
-        listView = (ListView)findViewById(R.id.list);
+        //Referenciamos el elemento listvew del activity_iglesias
+        listView = (ListView)findViewById(R.id.listview);
         gridView = (GridView)findViewById(R.id.grid);
         fillList();//Método que me permite llenar la lista
 

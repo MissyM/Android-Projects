@@ -1,7 +1,4 @@
-package com.milenacabrera.miescuelaapp;
-
-
-import android.provider.BaseColumns;
+package com.milenacabrera.miescuelaapp.Model;
 
 
 /**

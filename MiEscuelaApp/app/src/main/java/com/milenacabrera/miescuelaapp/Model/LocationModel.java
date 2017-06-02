@@ -1,4 +1,4 @@
-package com.milenacabrera.miescuelaapp;
+package com.milenacabrera.miescuelaapp.Model;
 
 /**
  * Created by mile on 19/05/17.

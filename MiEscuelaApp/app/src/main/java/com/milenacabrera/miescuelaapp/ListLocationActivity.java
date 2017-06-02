@@ -3,12 +3,13 @@ package com.milenacabrera.miescuelaapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Adapter;
 import android.widget.Button;
 import android.widget.ListView;
 
+import com.milenacabrera.miescuelaapp.Model.Connection;
+import com.milenacabrera.miescuelaapp.Model.LocationModel;
+
 import java.util.ArrayList;
-import java.util.List;
 
 public class ListLocationActivity extends AppCompatActivity {
 
