@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.milenacabrera.fragment_estatico_application.StaaticFragment1"
+        android:id="@+id/fragment5"
+        tools:layout="@layout/static_fragment1" />
+
+    <fragment
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:name="com.milenacabrera.fragment_estatico_application.StaaticFragment2"
+        android:id="@+id/fragment6"
+        android:layout_weight="1"
+        tools:layout="@layout/static_fragment2" />
+
+    <fragment
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:name="com.milenacabrera.fragment_estatico_application.StaaticFragment3"
+        android:id="@+id/fragment7"
+        tools:layout="@layout/static_fragment3" />
+</LinearLayout>
