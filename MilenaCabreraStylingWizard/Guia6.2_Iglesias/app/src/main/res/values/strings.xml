@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Guia6.2_Iglesias</string>
+    <string name="BELEN">El santuario, dedicado al Santo Ecce Homo, patrono de la ciudad, fue contruida en 1681 por el rico y generoso
+        artesano Juan Antonio de Velasco. En su sencilla contruccion pueden apreciarse detalles de silleria colonial tipicamente española.
+        Desde su atrio se tiene una panoràmica esplèndida sobre popayan y sus alrededores.
+
+ubicaciòn: calle 5ta, salida al Huila.
+Horario de Misa:
+Lunes a Viernes: 4:00 p.m.
+Sábados:  4:00 p.m.
+Domingos: 11:30 a.m. -  4:00 p.m.</string>
+    <string name="SANFRANCISCO">Esta iglesia es la mas rica y hermosa de la ciudad, pues, ademas de ser una joya arquitectonica,
+        tiene excelentes obras de pintura, imagineria, orfebreria y mobiliario, no solo de la escuela española si no tambien de la quiteña.
+        Su diseño y construccion data de 1775. La belleza de su ambiente, la luz de sus vitrales la magnificencia de su pulpito,
+        cada detalle de su hermosa contruccion, forman un conjunto que aseguran al visitante una experiencia sin presedentes.
+
+ubicaciòn: Calle 4 Carrera 9 Esq.
+Horario de Misas:
+Lunes a Viernes: 5:00 p.m. - 6:00 p.m.
+Sábados: 12:00 m - 5:00 p.m. - 6:00 p.m.
+Domingos: 10:00 a.m. -4:00, 5:00 y 6:00 p.m.
+</string>
+    <string name="CATEDRAL">Conocida como la cuarta catedral, ya que los movimientos sismicos han destruido las tres anteriores, su
+        construccion comenzò en el año 1856 por el Arzobispo Pedro Antonio Torres, la cual duro 50 años y fue terminada por el arquitecto
+        Adolfo Dueñas en el año 1906. Tiene una fachada de estilo neoclàsico con un interior decorado en estilo francès y una majestuosa
+        cùpula.
+
+ubicaciòn: Calle 5, Parque Caldas
+Horario de Misas
+Lunes a Viernes: 8:30 a.m. - 5:00 p.m. - 6:00 p.m.
+Sábados: 8:30 a.m. - 12:00 m - 5:00 p.m. - 6:00 p.m.
+Domingos:  7:00 a.m. - 9:00 a.m. - 11:00 a.m. - 6:00 p.m.   </string>
+    <string name="ERMITA">Es la iglesia mas antigua de las que hay en la ciudad.Fue contruida en
+        las primeras decadas del siglo VXI; Su antiguedad se manifiesta en su altar mayor, tanto
+        en su nave principal como en su sacristia conserva magnificas muestras de imagineria
+        quiteña, española e italiana.
+
+ubicaciòn: Calle 5 Carrera 2
+Horario de Misas:
+Lunes a Viernes: 5:00 p.m.
+Sábados: 5:00 p.m.
+Domingos: 9:30 a.m. - 5:00 p.m.</string>
+</resources>

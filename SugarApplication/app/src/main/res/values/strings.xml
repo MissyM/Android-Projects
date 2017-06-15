@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SugarApplication</string>
+    <string name="guardar">Guardar</string>
+    <string name="tel_fono">Teléfono</string>
+    <string name="direcci_n">Dirección</string>
+    <string name="apellido">Apellido</string>
+    <string name="nombre">Nombre</string>
+    <string name="id">id</string>
+    <string name="ver_lista">ver lista</string>
+</resources>
