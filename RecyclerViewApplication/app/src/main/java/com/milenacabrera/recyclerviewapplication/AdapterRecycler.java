@@ -12,6 +12,9 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.milenacabrera.recyclerviewapplication.R.style.CardView;
+import static com.milenacabrera.recyclerviewapplication.R.styleable.RecyclerView;
+
 /**
  * Created by mile on 15/06/17.
  */
